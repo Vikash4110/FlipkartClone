@@ -1,0 +1,125 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Ubuntu:wght@300&display=swap");
+:root {
+  --main-bg-color: #2874f0;
+}
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  background: var(--main-bg-color);
+  font-family: "Lato", sans-serif;
+}
+
+nav {
+  display: flex;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 88px;
+  padding: 0 25px;
+}
+nav ul {
+  height: 58px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+nav ul li {
+  list-style: none;
+  padding: 0 23px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  font-weight: bolder;
+}
+.search {
+  display: flex;
+  align-items: center;
+}
+.search input {
+  width: 443px;
+  height: 27px;
+  border-radius: 2px;
+  margin: 0 16px 0 56px;
+  padding: 0 12px;
+}
+
+.btn1 {
+  padding: 5px 10px;
+  color: white;
+  background-color: var(--main-bg-color);
+  border: 2px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+}
+
+.btn1:hover {
+  background-color: rgb(194, 13, 13);
+  font-family: "Lato", sans-serif;
+}
+
+.btn2 {
+  margin-left: 300px;
+  padding: 5px 10px;
+  color: black;
+  background-color: white;
+  border: 2px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+}
+
+.btn3 {
+  margin: 7px;
+  padding: 5px 10px;
+  color: white;
+  background-color: var(--main-bg-color);
+  border: 2px solid white;
+  border-radius: 7px;
+  cursor: pointer;
+  font-family: "Lato", sans-serif;
+}
+
+.slider {
+  width: 80vw;
+  margin: 12px auto;
+}
+
+.card {
+  font-family: "ubuntu", sans-serif;
+  border: 2px solid rgb(33, 32, 32);
+  border-radius: 5px;
+  margin-bottom: 10px;
+  background-color: rgb(246, 244, 242);
+  max-width: 92vw;
+  margin: auto;
+  padding-left: 10px;
+}
+
+.card-item {
+  margin: 0 50px;
+  display: inline-flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.container {
+  height: calc(100vh - 58px - 12vh);
+}
+footer {
+  height: 12vh;
+  background: var(--main-bg-color);
+  color: white;
+  font-family: "Lato", sans-serif;
+}
